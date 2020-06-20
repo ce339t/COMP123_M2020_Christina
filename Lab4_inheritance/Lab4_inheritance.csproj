@@ -58,7 +58,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InheritancePerson.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="InheritanceMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

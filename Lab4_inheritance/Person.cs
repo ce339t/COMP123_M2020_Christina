@@ -6,42 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab4_inheritance
 {
-    class InheritancePerson
+    class Person
     {
-        static void Main(string[] args)
-        {
-         
-                Person Christina = new Person("Tom", 40);
-
-                Christina.SaysHello();
-
-                string christinaString = Christina.ToString();
-
-                Console.WriteLine(christinaString);
-                Console.WriteLine();
-
-
-                Person jacky = new Person("Jacky", 22);
-
-                jacky.SaysHello();
-
-                Console.WriteLine(jacky.ToString());
-                Console.WriteLine();
-
-                Person Nina = new Person("Joss", 22);
-
-                Nina.SaysHello();
-              
-
-                Console.WriteLine(Nina.ToString());
-
-
-                // wait for user to enter anything
-                Console.ReadLine();
-            }
-            class Person
-        {
-            // PRIVATE INSTANCE VARIABLES (FIELDS)
+                 // PRIVATE INSTANCE VARIABLES (FIELDS)
             private string m_name;
             private int m_age;
 
@@ -100,6 +67,8 @@ namespace Lab4_inheritance
 
                 return outputString;
             }
+
         }
     }
-}
+
+
